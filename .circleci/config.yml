@@ -3,7 +3,7 @@ jobs:
   build:
     working_directory: ~/meme_creator
     docker:
-      - image: circleci/python:3.7.0
+      - image: circleci/python:3.7.5
         environment:
           PIPENV_VENV_IN_PROJECT: true
           PIPENV_DONT_LOAD_ENV: true
